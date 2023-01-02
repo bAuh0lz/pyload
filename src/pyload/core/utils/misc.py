@@ -8,6 +8,7 @@ import js2py
 
 from .check import is_mapping
 
+js2py.disable_pyimport()
 
 def random_string(length):
     seq = string.ascii_letters + string.digits + string.punctuation
