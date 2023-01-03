@@ -11,6 +11,7 @@ class BaseConfig:
     DEBUG = False
     TESTING = False
     SESSION_COOKIE_SAMESITE = "Lax"
+    SESSION_COOKIE_SECURE = True
     #: Extensions
     # BCRYPT_LOG_ROUNDS = 13
     # DEBUG_TB_ENABLED = False
